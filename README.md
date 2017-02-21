@@ -1,2 +1,2 @@
-# TDSpy
-Time-Dependent Statistics in Python
+# TSOMpy
+Time Series Online Measurement for Python
