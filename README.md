@@ -1,7 +1,7 @@
 # TSOMpy
-Online measurement techniques, e.g., moving averages (MAs), calculate time-dependent statistics and are often used in adaptive systems. We proposed a framework to compare multiple MA methods, extended MAs to moving histograms (MHs) and time-dependent rate measurment (TDRM) methods in [the paper](https://atlas.informatik.uni-tuebingen.de/~menth/papers/Menth17c.pdf).
+Online measurement techniques, e.g., moving averages (MAs), calculate time-dependent statistics and are often used in adaptive systems. We proposed a framework to compare multiple MA methods, extended MAs to moving histograms (MHs) and time-dependent rate measurment (TDRM) methods in [the paper](http://dl.acm.org/citation.cfm?id=3030212&CFID=754941918&CFTOKEN=94962294).
 
-TSOMpy is a Python library for online measurement of time series implementing all moving averages (MAs), moving histograms (MHs), and time-dependent rate measurement (TDRM) concepts of [the paper](https://atlas.informatik.uni-tuebingen.de/~menth/papers/Menth17c.pdf).
+TSOMpy is a Python library for online measurement of time series implementing all moving averages (MAs), moving histograms (MHs), and time-dependent rate measurement (TDRM) concepts of [the paper](http://dl.acm.org/citation.cfm?id=3030212&CFID=754941918&CFTOKEN=94962294).
 
 ## Features
 TSOMpy offers the following features:
@@ -55,19 +55,19 @@ All online measurement concepts are implemented in an object-oriented class hier
 | Class name | Full method's name     |
 |------------|------------------------|
 | MH_CumMean | MH with CumMean (5.1) |
-| MH_WMA |  MH with WMA (not considered in [the paper](https://atlas.informatik.uni-tuebingen.de/~menth/papers/Menth17c.pdf)) |
-| MH_DWMA | MH with DWMA (not considered in [the paper](https://atlas.informatik.uni-tuebingen.de/~menth/papers/Menth17c.pdf)) |
+| MH_WMA |  MH with WMA (not considered in [the paper](http://dl.acm.org/citation.cfm?id=3030212&CFID=754941918&CFTOKEN=94962294)) |
+| MH_DWMA | MH with DWMA (not considered in [the paper](http://dl.acm.org/citation.cfm?id=3030212&CFID=754941918&CFTOKEN=94962294)) |
 | MH_UEMA | MH with UEMA (5.1) |
-| MH_EMA | MH with EMA (not considered in [the paper](https://atlas.informatik.uni-tuebingen.de/~menth/papers/Menth17c.pdf)) |
+| MH_EMA | MH with EMA (not considered in [the paper](http://dl.acm.org/citation.cfm?id=3030212&CFID=754941918&CFTOKEN=94962294)) |
 
 **Time-dependent MHs (for unevenly-spaced time series)**
 
 | Class name | Full method's name     |
 |------------|------------------------|
-| TDMH_TWMA | TDMH with TWMA (not considered in [the paper](https://atlas.informatik.uni-tuebingen.de/~menth/papers/Menth17c.pdf)) |
-| TDMH_DTWMA | TDMH with DTWMA (not considered in [the paper](https://atlas.informatik.uni-tuebingen.de/~menth/papers/Menth17c.pdf)) |
+| TDMH_TWMA | TDMH with TWMA (not considered in [the paper](http://dl.acm.org/citation.cfm?id=3030212&CFID=754941918&CFTOKEN=94962294)) |
+| TDMH_DTWMA | TDMH with DTWMA (not considered in [the paper](http://dl.acm.org/citation.cfm?id=3030212&CFID=754941918&CFTOKEN=94962294)) |
 | TDMH_UTEMA | TDMH with UTEMA (5.2) |
-| TDMH_TEMA | TDMH with TEMA (not considered in [the paper](https://atlas.informatik.uni-tuebingen.de/~menth/papers/Menth17c.pdf)) |
+| TDMH_TEMA | TDMH with TEMA (not considered in [the paper](http://dl.acm.org/citation.cfm?id=3030212&CFID=754941918&CFTOKEN=94962294)) |
 
 **Time-dependent RMs (for unevenly-spaced time series)**
 
